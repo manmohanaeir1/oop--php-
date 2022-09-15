@@ -28,7 +28,8 @@ $anotherUser = new User('Sarad', 'Bist@sarad');
 $anotherUser->addfriend();
 echo '<br>';
 
- 
+ echo 'name :' . $anotherUser->username . '<br>';
+ echo 'email :'  . $anotherUser->useremail . '<br>';
   echo '<br>';
 
 
